@@ -1,0 +1,177 @@
+a, a:visited{ text-decoration: none; color: #333333; }
+a:active,a:hover{text-decoration: none !important;}
+img { display: block;border: none !important;width: 100%;}
+.hide { display: none !important; }
+html,body{color: #333333;overflow-x: hidden;background: #FFFFFF;font-family: "STHeiti","Hiragino Sans GB",Helvetica,"Microsoft Yahei",'微软雅黑','黑体','新細明體',Arial,"Lucida Grande",sans-serif;}
+html{font-size:16px;}
+*{padding: 0;margin: 0;}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.clearfix{overflow: hidden;zoom: 0;}
+.text-center{text-align: center !important;}
+
+.home-d1{padding: 0.4rem 0;}
+.container{ width: 100%;padding-right: 10px;padding-left: 10px;margin: auto;}
+.logo{width: 6.43rem;margin: auto;}
+.home-d3{width: 50%;margin: auto;padding: 0.8rem 0;}
+.home-d3 div{width: 2rem;text-align: center;}
+.home-d3-left{float: left;}
+.home-d3-right{float: right;}
+.home-d4{padding: 2rem 0 1rem 0;border-top: 0.4rem solid #f3f3f3;border-bottom: 0.4rem solid #f3f3f3;}
+.hometitle{position: relative;text-align: center;font-size: 1.2rem;margin-bottom: 1rem;}
+.hometitle:before{content: '';display: block;width: 1.72rem;height: 1rem;position: absolute;top: -1rem;left: 34%;z-index: 9;
+background: url(../img/home-icon3.png) no-repeat;background-size: 100%;-webkit-animation: Ani1 0.8s both linear alternate infinite;}
+.home-d4 ul{width: 80%;overflow: hidden;}
+.home-d4 ul li{overflow:hidden; text-overflow:ellipsis;white-space:nowrap;padding-left: 1.2rem;margin-bottom: 0.6rem;position: relative;}
+.home-d4 ul li:before{content: '';display: block;width: 1rem;height: 0.7rem;position: absolute;left: 0;top:0.15rem;z-index: 9;
+background: url(../img/home-icon5.png) no-repeat;background-size: 100%;-webkit-animation: Ani2 0.4s both linear alternate infinite;
+-webkit-transform-origin: 0% 50%;}
+.home-d5{padding: 2rem 0 1rem 0;}
+.home-d5 a{display: block;}
+.home-d5 .hometitle:before{background: url(../img/home-icon4.png) no-repeat;background-size: 100%;}
+.home-d5 .swiper-container,.about-d1 .swiper-container{padding-bottom: 2rem;}
+.swiper-pagination-bullet{background: #025450;opacity: 1;}
+.swiper-pagination-bullet-active{border: 1px solid #025450;border-radius: 100%;background: #FFFFFF;width: 9px;height: 9px;}
+
+.slidertext{background: #025450; color: #FFFFFF;padding: 0.8rem;line-height: 1.4rem;}
+.slidertext p{font-size: 0.8rem;padding-left: 1.1rem;position: relative;}
+.slideradd:before,.slidertel:before{content: '';display: block;width: 0.8rem;height: 0.9rem;position: absolute;left: 0;top:0.1rem;z-index: 9;
+background: url(../img/home-icon6.png) no-repeat;background-size: 100%;}
+.slidertel:before{background: url(../img/home-icon7.png) no-repeat;background-size: 100%;}
+.slidertitle{font-size: 0.9rem;}
+@-webkit-keyframes Ani1{
+	0%{ -webkit-transform: translateY(0px);}
+	100%{ -webkit-transform: translateY(3px);}
+}
+@-webkit-keyframes Ani2{
+	0%{-webkit-transform: scale(0.9);}
+	100%{-webkit-transform: scale(1);}
+}
+/**底部导航**/
+.nav ul li{position: relative;padding: 0.6rem 1.5rem;background: #f3f3f3;margin-bottom: 0.2rem;line-height: 1.4rem;}
+.nav ul li a{color: #025450;display: block;}
+.nav ul li:after{content: '';display: block;width: 0.8rem;height: 1rem;position: absolute;right: 1.5rem;top:0.8rem;z-index: 9;
+background: url(../img/home-icon8.png) no-repeat;background-size: 100% 100%;}
+/**底部logo**/
+.commonfooter{padding: 1rem 0 3rem 0;color: #8f8f8f;line-height: 1.2rem;font-size: 0.8rem;}
+.commonfooter img{width: 6.43rem;}
+.commonfooter p{padding:0.5rem 0 0 0.4rem;}
+
+/***关于华宇***/
+.about-d1{padding: 0.4rem 0 0;text-align: left;}
+.about-d1 .logo{margin: 0;}
+.about-h1{font-size: 1.2rem;background: #f3f3f3;padding: 0.8rem 0;text-align: center;}
+.about-h1 span{width: 1rem;display: block;margin:0.5rem auto 0 auto;-webkit-animation: Ani1 0.4s both linear alternate infinite;}
+.about-main{padding: 1.5rem 0; line-height: 1.6rem;}
+.about-main p,.about-main2 p,.newdetail-main p{text-indent: 2rem;text-align: justify;margin-bottom: 1.5rem;}
+.about-main2{text-align: center;line-height: 1.6rem;}
+.about-main2 p{text-indent: 0;text-align: center;}
+.about-main2 h2{line-height: 2.4rem;font-size: 1.1rem;}
+.about-ul{margin-bottom: 1.5rem;}
+.about-ul li{width: 30%;border-radius: 0.5rem;box-shadow: 0px 0px 8px #dddddd;float: left;
+margin:0.5rem 1.6%;padding: 0.5rem;color: #999999;height: 11rem;}
+.about-ul li:nth-child(3n){margin-right: 0px;}
+.about-main2 .about-ul li p{text-align: justify;line-height: 1.4rem;margin-bottom: 0px;}
+.about-main2 .about-ul li p:nth-child(1){text-align: center;color: #333333;margin-bottom: 0.5rem;}
+
+/***地产集团***/
+.estate-d2,.business-d1,.construction-d1{margin-bottom: 2rem;}
+.estate-fbanner-title{padding-top: 2rem;font-weight: bold;}
+.estate-fbanner-title span,.fubon-main h2 span{width: 6rem;height: 1px;background: #999999;display: block;margin:0.3rem auto;}
+.estate-d2 .swiper-container-horizontal>.swiper-pagination-bullets,.estate-d2  .swiper-pagination-custom,.estate-d2  .swiper-pagination-fraction{bottom: 2.2rem;}
+.estate-d2 h2,.business-d1 h2,.construction-d1 h2{margin-bottom: 1rem;}
+
+/***商业集团***/
+.business-d1 .swiper-container-horizontal>.swiper-pagination-bullets,.business-d1  .swiper-pagination-custom,.business-d1  .swiper-pagination-fraction{bottom: 3.6rem;}
+.estate-fbanner-text{color: #666666;margin-top:0.8rem;}
+
+/***金控集团***/
+.fubon-main h2{font-weight: bold;text-align: center;margin-bottom: 1.5rem;}
+.fubon-ul{margin:0 auto 1.5rem auto;}
+.fubon-ul li{float: left;margin:0 0.8rem 1rem 0;}
+.fubon-ul li:before{content: '';display: inline-block;width: 0.5rem;height: 0.5rem;background: #025450;border-radius: 100%;margin-right: 0.3rem;}
+
+/***建设集团***/
+.construction-fbanner-title{padding-top: 2rem;}
+.construction-d1 .swiper-container-horizontal>.swiper-pagination-bullets,.construction-d1  .swiper-pagination-custom,.construction-d1  .swiper-pagination-fraction{bottom: 1.5rem;}
+
+/***华宇资讯***/
+.news-title{position: absolute;width: 100%;background: rgba(0,0,0,0.8);color: #FFFFFF;bottom: 0px;}
+.news-title p{padding: 0.5rem 0 0.5rem 1rem;}
+.news-main{margin:0.5rem auto 0rem auto;padding-bottom: 5rem;}
+.tabs{margin-bottom: 1rem;}
+.tabs li{width: 33.333%;float: left;padding: 0.5rem 0;text-align: center;background: #f2f2f2;}
+.tabs li.active{background: #025450;}
+.tabs li.active a{color: #FFFFFF;}
+.news-ul li{padding: 0.5rem 0;border-bottom: 1px solid #dcdcdc;}
+.news-ul li img{width: 22%;float: left;}
+.news-text{width: 75%;float: right;}
+.news-text h2{overflow:hidden; text-overflow:ellipsis;white-space:nowrap;line-height: 1.4rem;}
+.news-text p{overflow:hidden; text-overflow:ellipsis;white-space:nowrap;color: #999999;line-height: 1.6rem;font-size: 0.9rem;}
+.news-footer{position: fixed;bottom: 0px;padding: 0.5rem 0 0.8rem 0;background: #f0ede5;width: 100%;text-align: center;}
+.news-footer ul li{width: 33.333%;float: left;}
+.news-footer ul li img{width: 2.2rem;margin: auto;}
+.news-footer ul li img:nth-child(2),.news-footer ul li.actives img:nth-child(1){display: none;}
+.news-footer ul li.actives img:nth-child(2){display: block;}
+.news-footer ul li.actives a{color: #025450;}
+
+/***华宇资讯详情页***/
+.newdetail-head{padding: 1.2rem 0;border-top: 3px solid #f3f3f3;border-bottom: 1px solid #dcdcdc;text-align: center;margin-bottom: 1rem;font-size: 1.2rem;}
+.newdetail-content h2{text-align: center;line-height: 1.6rem;}
+.newdetail-eg{font-size: 0.8rem;text-align: center;color: #999999;margin: 0.8rem 0 2rem 0;}
+.newdetail-main{line-height: 1.6rem;}
+.newdetail-main p{text-indent: 0;}
+.newdetail-back{margin-bottom: 1.6rem;}
+.newdetail-back p{display: inline-block;padding: 0.8rem 1.6rem;color: #FFFFFF;background: #025450;float: right;}
+.newdetail-back p a{display: block;color: #FFFFFF;}
+.city{position: absolute;top: 1.2rem;right: 0.5rem;border: 0;min-width: 4rem;text-align: center;font-size: 1rem;}
+select{
+/* 解决select下拉箭头在ios上不兼容的问题 */
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+background: url(../img/about-icon1b.png) no-repeat scroll right center transparent;
+border: 1px solid #749ccb;
+background-size: 30%;
+}
+
+
+/***楼盘***/
+.building-main{padding-bottom: 5rem;}
+.building-main ul li{border-top: 3px solid #f3f3f3;padding: 1rem 15px;}
+.building-main ul li img{float: left;width: 35%;}
+.building-text{width: 62%;float: right;position: relative;line-height: 1.3rem;}
+.building-text p{font-size: 0.8rem;}
+.building-add:before,.building-tel:before{content: '';display: inline-block;width: 0.8rem;height: 0.9rem;background: url(../img/home-icon6-gray.png) no-repeat;background-size: 100%;}
+.building-tel:before{background: url(../img/home-icon7-gray.png) no-repeat;background-size: 100%;}
+
+/***楼盘详情***/
+.building-d1 .swiper-pagination-bullet{background: #c4b898;opacity: 1;}
+.building-d1 .swiper-pagination-bullet-active{border: 1px solid #c4b898;border-radius: 100%;background: #FFFFFF;width: 9px;height: 9px;}
+.builddetail-logo{width: 50%;margin:0 auto 1rem auto;}
+.building-d2{line-height: 1.6rem;margin-top: -1.5rem;margin-bottom: 1.5rem;}
+.building-d2 .building-tel{display: inline-block;background: #025450;color: #FFFFFF;padding: 0.1rem 0.8rem;border-radius: 0.8rem;margin-top: 0.3rem;}
+.building-d2 .building-tel:before{background: url(../img/home-icon7.png) no-repeat;background-size: 100%;}
+.build-model{padding: 1.5rem 0;}
+/*.build-model img{margin-bottom: 1.5rem;}*/
+.build-gallery{padding: 1rem 0;}
+.build-gallery img{margin-bottom: 0.5rem;}
+.building-tel a,.building-tel a:visited,.building-tel a:hover{color: #FFFFFF;}
+
+
+
+/***首页banner***/
+.inkv1-bg { background: url(../img/home-img1.jpg) bottom center no-repeat; background-size: cover }
+.inkv2-bg { background: url(../img/home-img1.jpg) center center no-repeat; background-size: cover }
+.inkv3-bg { background: url(../img/home-img1.jpg) center center no-repeat; background-size: cover }
+
+.my-gallery {width:100%;margin: 0 auto;}
+.my-gallery .img-dv {width:100%;margin-bottom: 1%;}
+.my-gallery .img-dv a {display:block;width:100%;text-align: center}
+.my-gallery .img-dv a img {width:100%;}
+
+.model-d{margin-bottom: 1.5rem;display: block;}
+.model-d-left{width: 50% !important;float: left;}
+.model-d-right{width: 50%;float: right;line-height: 1.6rem;padding-left: 1rem;margin-top: 3rem;}
+.model-d-left .img-dv{margin-bottom: 0% !important;}
